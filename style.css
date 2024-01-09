@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+.section-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-header{
+  osition: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header .title1{
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.section-header .title2{
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.section-header .text{
+  color: hsl(229, 6%, 66%);
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 500px;
+}
+
+.cards-wrapper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+background-color: #fff;
+width: 300px;
+height: 200px;
+box-shadow: 0px 5px 20px hsl(229, 6%, 80%);
+display: flex;
+flex-direction: column;
+padding: 30px;
+border-radius: 5px;
+}
+
+.card img{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.card .card-title{
+  color: hsl(234, 12%, 34%);
+  font-size: 1rem;
+  padding-bottom: 20x;
+}
+
+.card p{
+  font-size: 0.6rem;
+  color: hsl(234, 12%, 34%);
+}
+
+.card1{
+  position: absolute;
+  left: 0;
+  right: 20px;
+  top: 110px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card2{
+  position: relative;
+  top: 0;
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card3{
+  position: absolute;
+  top: 220px;
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card4{
+  position: absolute;
+  right: 0;
+  top: 110px;
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+
+/*mobile view*/
+@media(max-width: 800px){
+  .container{
+    width: 90%;
+    height: 100vh;
+  }
+  
+  .section-wrapper{
+    width: 90%;
+    margin: 50px 20px;
+  }
+  
+  .section-header .title1{
+    font-size: 1.5rem;
+  }
+  
+  .section-header .title2{
+    font-size: 1.5rem;
+  }
+  
+  .section-header .text{
+    font-size: 0.95rem;
+    width: 340px;
+  }
+  
+  .cards-wrapper{
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+.card img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 240px;
+  top: 40px;
+}
+  
+.card1{
+  position: initial;
+}
+
+.card2{
+  position: initial;
+}
+
+.card3{
+  position: initial;
+}
+
+.card4{
+  position: initial;
+}
+
+.card{
+  width: 340px;
+  height: 220px;
+  margin-bottom: 20px;
+  padding: 20px ;
+}
+
+.card-title{
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.card p{
+  font-size: 0.87rem;
+}
+}
+
