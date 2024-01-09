@@ -126,6 +126,19 @@ border-radius: 5px;
   border-top: 3px solid hsl(212, 86%, 64%);
 }
 
+.attribution{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.attribution a{
+  text-underline-offset: 0.5rem;
+  text-decoration-color:hsl(0, 78%, 62%);
+  font-weight: bold;
+  color: hsl(212, 86%, 64%);
+}
+
 
 /*mobile view*/
 @media(max-width: 800px){
@@ -195,6 +208,22 @@ border-radius: 5px;
 
 .card p{
   font-size: 0.87rem;
+}
+
+.attribution{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1rem;
+}
+
+.attribution a:first-child{
+  color: hsl(0, 78%, 62%);
+}
+
+.attribution a{
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(212, 86%, 64%);
 }
 }
 
