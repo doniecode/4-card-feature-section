@@ -132,11 +132,16 @@ border-radius: 5px;
   font-size: 1.5em;
 }
 
+.attribution a:first-child{
+  text-decoration-color: hsl(212, 86%, 64%);
+  color: hsl(0, 78%, 62%);
+}
+
 .attribution a{
   text-underline-offset: 0.5rem;
   text-decoration-color:hsl(0, 78%, 62%);
   font-weight: bold;
-  color: hsl(212, 86%, 64%);
+  color: hsl(212, 86%, 50%);
 }
 
 
